@@ -7,7 +7,6 @@ import { GrReactjs } from 'react-icons/gr';
 import { TbBrandJavascript } from 'react-icons/tb'
 import { SiTailwindcss } from 'react-icons/si'
 import { SiNextdotjs } from 'react-icons/si'
-import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -18,7 +17,7 @@ const Header = () => {
 
             <div className="container header-container" id="">
                 <h1>Ademola Adewole</h1>
-                <h5>Front-end Engineer</h5>
+                <h5>Full-stack Engineer</h5>
                 <div className="header-icons">
                     <a href="http://github.com/facebook/react" target='_blank'><GrReactjs /></a>
                     <a href="http://javascript.com" target='_blank'><TbBrandJavascript /></a>

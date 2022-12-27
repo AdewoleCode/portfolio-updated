@@ -1,6 +1,5 @@
 import React from 'react'
 import '../portfolio-desc/PortfolioDes.css'
-import Img1 from '../../assets/portfolio1.jpg';
 import { TbArrowBackUp } from 'react-icons/tb'
 import { Link, useParams } from 'react-router-dom';
 import  projects  from '../../helper/Projects';
