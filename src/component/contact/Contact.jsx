@@ -41,7 +41,7 @@ const Contact = () => {
           <article className='contact-item' >
             <FiTwitter className='contact-icon' />
             <h4>Twitter</h4>
-            <h5>@robinhood_1712</h5>
+            <h5>@AdewoleCodes</h5>
             <a href="https://twitter.com/messages" target="_blank">Send a message</a>
           </article>
           <article className='contact-item'>
