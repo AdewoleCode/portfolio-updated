@@ -12,12 +12,12 @@ const ArticleItem = ({ img, name, url }) => {
             <div className="art-title">
                 {name}
             </div>
-            <Link to={url}>
+            <a href={url} target="_blank">
                 <div className="text">
                     <h5>Read full article</h5>
                     <AiFillEye className='text-icon' />
                 </div>
-            </Link>
+            </a>
         </div>
     )
 }
