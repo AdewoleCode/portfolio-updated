@@ -22,7 +22,11 @@ const Experience = () => {
                         </article>
                         <article>
                             <BsPatchCheckFill className='exp-icon' />
-                            <h4>BOOTSRAP</h4>
+                            <h4>REACTJS</h4>
+                        </article>
+                        <article>
+                            <BsPatchCheckFill className='exp-icon' />
+                            <h4>REDUXJS/REDUX-TOOLKIT</h4>
                         </article>
                         <article>
                             <BsPatchCheckFill className='exp-icon' />
@@ -30,11 +34,7 @@ const Experience = () => {
                         </article>
                         <article>
                             <BsPatchCheckFill className='exp-icon' />
-                            <h4>NEXT.JS</h4>
-                        </article>
-                        <article>
-                            <BsPatchCheckFill className='exp-icon' />
-                            <h4>REACT</h4>
+                            <h4>MATERIAL UI</h4>
                         </article>
                     </div>
                 </div>
@@ -53,8 +53,13 @@ const Experience = () => {
                         </article>
                         <article className='icb'>
                             <BsPatchCheckFill className='exp-icon' />
-                            <h4>PHP AND MYSQL (in view...)</h4>
+                            <h4>MONGODB</h4>
                         </article>
+                        <article className='icb'>
+                            <BsPatchCheckFill className='exp-icon' />
+                            <h4>EXPRESS JS</h4>
+                        </article>
+
                     </div>
                 </div>
             </div>

@@ -5,14 +5,16 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { FiBook } from 'react-icons/fi';
 import { MdContactMail } from 'react-icons/md';
 import { MdWorkspacesFilled } from 'react-icons/md';
+import { RiArticleLine } from 'react-icons/ri'
 import { useState } from 'react';
-import {Link, Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import About from '../about/About';
 import Header from '../header/Header'
 import Experience from '../experience/Experience';
 import Portfolio from '../portfolio/Portfolio';
 import Contact from '../contact/Contact';
 import PortfolioDes from '../portfolio-desc/PortfolioDes';
+import Articles from '../articles/Articles';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#home')
@@ -25,7 +27,9 @@ const Nav = () => {
         <Link to="/about" onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? 'active' : ''} ><AiOutlineUser /></Link>
         <Link to="/experience" onClick={() => setActiveNav('#experience')} className={activeNav === "#experience" ? 'active' : ''}><FiBook /></Link>
         <Link to="/project" onClick={() => setActiveNav('#project')} className={activeNav === "#project" ? 'active' : ''}><MdWorkspacesFilled /></Link>
+        <Link to="/articles" onClick={() => setActiveNav('#articles')} className={activeNav === "#articles" ? 'active' : ''}><RiArticleLine /></Link>
         <Link to="/contact" onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? 'active' : ''}><MdContactMail /></Link>
+
       </nav>
 
       <Routes>
@@ -34,7 +38,8 @@ const Nav = () => {
         <Route path="/experience" element={<Experience />} />
         <Route path="/project" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
-          <Route path="/project/:id" element={<PortfolioDes />} />   
+        <Route path="/project/:id" element={<PortfolioDes />} />
+        <Route path="/articles" element={<Articles />} />
       </Routes>
     </>
 

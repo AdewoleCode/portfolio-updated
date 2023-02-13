@@ -1,20 +1,67 @@
 // import React from 'react'
-import { TbApi } from "react-icons/tb";
 import IMG1 from "../assets/crypyo-App.png";
 import IMG2 from "../assets/maltimart.png";
 import IMG3 from "../assets/TravelNaija.png";
 import IMGPORT from "../assets/first-port.png";
-import IMGAGENCY from '../assets/design-agency.png'
+import IMG4 from "../assets/travel.png"
+import IMG5 from "../assets/adebooking.png"
+import IMG6 from "../assets/fooder.png"
+import ART1 from "../assets/arrMethod.png"
+import ART2 from "../assets/restFul.png"
+import ART3 from "../assets/started-express.png"
+import ART4 from "../assets/started-node.png"
+import ART5 from "../assets/scope.png"
 
-const projects = [
+
+
+
+export const projects = [
+  {
+    // id: "01",
+    projectName: "AdeBookings",
+    imgUrl: IMG5,
+    desc: "Adebookings is an booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel pages also features a carousel that displays more pictures of the selected property/hotels. backend consisits of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
+    webUrl: "https://hotel-booking-web-app.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],
+  },
+  {
+    // id: "01",
+    projectName: "Travelify",
+    imgUrl: IMG4,
+    desc: "Travelify is a social media web application where users can share their travel stories with the world. all users can view travel diaries but only authenticated/registered users can create, edit or delete travel stories."
+    ,
+    webUrl: "https://travel-diary-app-frontendd.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/mern-travel-blog",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
+  },
+
+  {
+    // id: "01",
+    projectName: "Spooky",
+    imgUrl: IMG1,
+    desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
+    webUrl: "https://spooky-chat-app.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
+  },
+  {
+    // id: "01",
+    projectName: "Fooder",
+    imgUrl: IMG6,
+    desc: "Fooder is food ordering web Application solution that makes ordering of food straightforward and easy, users can choose from a list of food categories, add food to cart, increase/decrease quantity of food items and checkout if they are registered/authenticated. Fooder also features an admin page to create and add a food item to the database. backend is an express API that connects to MongoDB database and it uses JsonWebToken for authentication",
+    webUrl: "https://fooderss-frontend.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/fooders",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "JsonWebToken"],
+  },
   {
     // id: "01",
     projectName: "Coin Search",
     imgUrl: IMG1,
     desc: "A crypto website with a easy to use, modern UI where any crypto enthusiast can go to check for crypto prices, current values, brief history, market ranks and more..",
-    webUrl: "https://coin-search-crypto.herokuapp.com/",
+    webUrl: "https://crypto-web-3waw.onrender.com",
     gitHub: "https://github.com/AdewoleCode/cypto-web-app",
-    stacks: ["reactJS", "external crpto Api", "TailwindCss"],
+    stacks: ["reactJS", "crypto Api", "TailwindCss"],
   },
   {
     // id: "02",
@@ -23,34 +70,54 @@ const projects = [
     desc: "A fully functioning E-commerce store with a nice, modern, easy to navigate User interface. users can add item to cart, filter or search for a particular products, create an account, checkout....",
     webUrl: "https://maltimartstore.netlify.app",
     gitHub: "https://github.com/AdewoleCode/Ecommerce-project",
-    stacks: ["reactJS", "redux Toolkit", "Firebase"],
+    stacks: ["ReactJS", "Redux Toolkit", "Firebase"],
   },
   {
     // id: "03",
     projectName: "Travel Naija ",
     imgUrl: IMG3,
-    desc: "A simple static website that shows my eye for great designs. a website designed for a traveling agency company, page also features light and dark mode.",
+    desc: "A Landing page designed for a traveling agency company, page also features light and dark mode.",
     webUrl: "https://travelnaija.netlify.app/",
     gitHub: "https://github.com/Robinhood1712/travelNaija",
     stacks: ["html", "css", "javascript"],
   },
   {
-    projectName: "my first portfolio page",
+    projectName: "previous portfolio website",
     imgUrl: IMGPORT,
-    desc: "The first porfolio page i created when i was still a code newbie. i had a lot of fun creating this one",
+    desc: "previous porfolio projects that contains my old projects",
     webUrl: "https://adewole-port.netlify.app/",
     gitHub: "https://github.com/Robinhood1712/",
-    stacks: ["html", "css", "javascript"],
-  },
-  {
-    projectName: "Shades Agency",
-    imgUrl: IMGAGENCY,
-    desc: "A website created for a tech agency. not much funtionalities as i was just showing off my design skills",
-    webUrl: "https://shades-site.netlify.app/",
-    gitHub: "https://github.com/Robinhood1712/shades",
     stacks: ["html", "css", "javascript"],
   },
 
 ];
 
-export default projects;
+
+export const ArticlesData = [
+  {
+    name: "5 must-know Array Methods in JavaScript",
+    img: ART1,
+    Url: "https://dev.to/adewolecode/5-must-know-array-methods-in-javascript-1l27"
+  },
+  {
+    name: "Understanding the Concept of Scope in JavaScript ",
+    img: ART5,
+    Url: "https://dev.to/adewolecode/understanding-the-concept-of-scope-in-javascript-g7l"
+  },
+  {
+    name: "How to build a RESTful crud API with ExpressJS and mongoDB Database for newbies ",
+    img: ART2,
+    Url: "https://dev.to/adewolecode/how-to-build-a-restful-crud-api-with-expressjs-and-mongodb-database-for-newbies-g8h"
+  },
+  {
+    name: "Getting Started With ExpressJS For Backend Development",
+    img: ART3,
+    Url: "https://adewolecode.hashnode.dev/getting-started-with-expressjs-for-backend-development"
+  },
+  {
+    name: "Getting Started With NodeJS as an Absolute Backend Newbie",
+    img: ART4,
+    Url: "https://adewolecode.hashnode.dev/getting-started-with-nodejs-as-an-absolute-backend-newbiehttpshashnodecom"
+  }
+]
+

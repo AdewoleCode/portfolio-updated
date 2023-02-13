@@ -2,7 +2,7 @@ import React from 'react'
 import '../portfolio-desc/PortfolioDes.css'
 import { TbArrowBackUp } from 'react-icons/tb'
 import { Link, useParams } from 'react-router-dom';
-import  projects  from '../../helper/Projects';
+import  {projects }  from '../../helper/Projects';
 
 const PortfolioDes = () => {
 
@@ -35,6 +35,25 @@ const PortfolioDes = () => {
                             <li><span>01.</span> {projectList.stacks[0]}</li>
                             <li><span>02.</span>{projectList.stacks[1]}</li>
                             <li><span>03.</span>{projectList.stacks[2]}</li>
+                            {projectList.stacks[3] ? (<li><span>03.</span>{projectList.stacks[3]}</li>) : null}
+                            {projectList.stacks[4] ? (<li><span>04.</span>{projectList.stacks[4]}</li>) : null}
+                            {projectList.stacks[5] ? (<li><span>05.</span>{projectList.stacks[5]}</li>) : null}
+                            {projectList.stacks[6] ? (<li><span>06.</span>{projectList.stacks[6]}</li>) : null}
+                            {projectList.stacks[7] ? (<li><span>07.</span>{projectList.stacks[7]}</li>) : null}
+                            {projectList.stacks[8] ? (<li><span>08.</span>{projectList.stacks[8]}</li>) : null}
+                            {projectList.stacks[9] ? (<li><span>09.</span>{projectList.stacks[9]}</li>) : null}
+                            {projectList.stacks[10] ? (<li><span>10.</span>{projectList.stacks[10]}</li>) : null}
+
+
+                            {/* <li><span>04.</span>{projectList.stacks[3]}</li>
+                            <li><span>05.</span>{projectList.stacks[4]}</li>
+                            <li><span>06.</span>{projectList.stacks[5]}</li>
+                            <li><span>07.</span>{projectList.stacks[6]}</li>
+                            <li><span>08.</span>{projectList.stacks[7]}</li>
+                            <li><span>09.</span>{projectList.stacks[8]}</li> */}
+
+
+
                             {/* <li><span>04.</span> {projectList.stacks[3]}</li> */}
                         </ol>
                     </div>

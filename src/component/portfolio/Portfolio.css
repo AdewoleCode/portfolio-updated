@@ -12,11 +12,9 @@
 .portfolio-item {
     background: var(--color-bg-variant);
     padding: 1.4rem;
-    border-radius: 2rem;
+    border-radius: 7px;
     border: 1px solid transparent;
     transition: var(--transition);
-    /* width: 350px;
-    height: 350px; */
 }
 
 .portfolio-item:hover {

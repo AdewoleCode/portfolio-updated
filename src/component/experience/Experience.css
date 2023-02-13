@@ -1,5 +1,4 @@
 #experience {
-    /* height: 100vh; */
     padding-top: 5rem;
 }
 
@@ -13,7 +12,7 @@
     border: 3px solid red;
     background-color: var(--color-bg-variant);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    border-radius: 7px;
     border: 1px solid transparent;
 }
 
@@ -28,7 +27,7 @@
     border: 3px solid red;
     background-color: var(--color-bg-variant);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    border-radius: 7px;
     border: 1px solid transparent;
 }
 .back-end:hover {

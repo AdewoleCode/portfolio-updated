@@ -19,11 +19,11 @@ const About = () => {
 
    
 
-          <p>I’m an experienced Frontend Engineer with over a year of programming experience. </p>
+          <p>I’m an experienced software developer with over 2 year of programming experience. </p>
 
           <p>I am a passionate self-learner with a great eye for nice, modern UI designs. I enjoy building projects using various technologies that helps with scalabilty</p>
           <p>
-            I am well versed in React and NextJS. As a developer, I enjoy bridging the gap between functionality and design. My goal is to
+            I am well versed in ReactJS, NodeJs/ExpressJS and MongoDB. As a developer, I enjoy bridging the gap between functionality and design. My goal is to
             always build web applications that are efficient while providing quality user experiences.
             Also, I am highly responsive to client needs and committed to helping people realize their vision.
           </p>
