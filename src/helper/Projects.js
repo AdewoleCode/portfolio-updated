@@ -11,6 +11,8 @@ import ART2 from "../assets/restFul.png"
 import ART3 from "../assets/started-express.png"
 import ART4 from "../assets/started-node.png"
 import ART5 from "../assets/scope.png"
+import IMG7 from "../assets/spooky.png"
+import IMG8 from "../assets/bas.png"
 
 
 
@@ -39,7 +41,7 @@ export const projects = [
   {
     // id: "01",
     projectName: "Spooky",
-    imgUrl: IMG1,
+    imgUrl: IMG7,
     desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
     webUrl: "https://spooky-chat-app.onrender.com",
     gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
@@ -53,6 +55,15 @@ export const projects = [
     webUrl: "https://fooderss-frontend.onrender.com",
     gitHub: "https://github.com/AdewoleCode/fooders",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "JsonWebToken"],
+  },
+  {
+    // id: "01",
+    projectName: "bStores",
+    imgUrl: IMG8,
+    desc: "an ecommerce store for children wears. users can add items to cart, increase quantity of items, visit a single item page, checkout. app also features stripe payment solution. backend is an headless cms that helps make ecomerce content much easier to manage",
+    webUrl: "https://iyaibro.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/basirat-children-stores",
+    stacks: ["ReactJS", "strapi", "React-Carousel", "sql-Lite", "Redux-Toolkit", "Material UI"],
   },
   {
     // id: "01",
@@ -84,7 +95,7 @@ export const projects = [
   {
     projectName: "previous portfolio website",
     imgUrl: IMGPORT,
-    desc: "previous porfolio projects that contains my old projects",
+    desc: "previous porfolio webpage that contains some of my old projects",
     webUrl: "https://adewole-port.netlify.app/",
     gitHub: "https://github.com/Robinhood1712/",
     stacks: ["html", "css", "javascript"],
