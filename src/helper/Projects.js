@@ -22,7 +22,7 @@ export const projects = [
     // id: "01",
     projectName: "AdeBookings",
     imgUrl: IMG5,
-    desc: "Adebookings is an booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel pages also features a carousel that displays more pictures of the selected property/hotels. backend consisits of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
+    desc: "Adebookings is an booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel page also features a carousel that displays more pictures of the selected property/hotel. backend consists of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
     webUrl: "https://hotel-booking-web-app.onrender.com",
     gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],

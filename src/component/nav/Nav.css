@@ -17,10 +17,10 @@ nav {
 
 nav a {
     background-color: transparent;
-    padding: 0.7rem;
+    padding: 0.6rem;
     border-radius: 50%;
     color: var(--color-light);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 nav a.active {
