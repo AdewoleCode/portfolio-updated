@@ -30,6 +30,11 @@ const Experience = () => {
                         </article>
                         <article>
                             <BsPatchCheckFill className='exp-icon' />
+                            <h4>TYPESCRIPT</h4>
+                        </article>
+
+                        <article>
+                            <BsPatchCheckFill className='exp-icon' />
                             <h4>TAILWIND CSS</h4>
                         </article>
                         <article>
