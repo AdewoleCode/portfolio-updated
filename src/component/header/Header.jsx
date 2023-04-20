@@ -11,13 +11,9 @@ import { SiNextdotjs } from 'react-icons/si'
 const Header = () => {
     return (
         <header id="home">
-            {/* <div className="boxes box1"></div>
-            <div className="boxes box2"></div>
-            <div className="boxes box3"></div> */}
-
             <div className="container header-container" id="">
                 <h1>Ademola Adewole</h1>
-                <h5>Full-stack software  Engineer and Technical Writer</h5>
+                <h5>Full-stack software Developer and Technical Writer</h5>
                 <div className="header-icons">
                     <a href="http://github.com/facebook/react" target='_blank'><GrReactjs /></a>
                     <a href="http://javascript.com" target='_blank'><TbBrandJavascript /></a>

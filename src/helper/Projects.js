@@ -13,16 +13,25 @@ import ART4 from "../assets/started-node.png"
 import ART5 from "../assets/scope.png"
 import IMG7 from "../assets/spooky.png"
 import IMG8 from "../assets/bas.png"
-
+import IMG9 from "../assets/brit.png"
 
 
 
 export const projects = [
   {
     // id: "01",
+    projectName: "Brit Properties LTD",
+    imgUrl: IMG9,
+    desc: "Official website for Brit Properties Nigeria Ltd, a real estate company primarily based in lagos.",
+    webUrl: "https://brit-react.onrender.com/",
+    gitHub: "https://brit-react.onrender.com/",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Django"],
+  },
+  {
+    // id: "01",
     projectName: "AdeBookings",
     imgUrl: IMG5,
-    desc: "Adebookings is an booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel page also features a carousel that displays more pictures of the selected property/hotel. backend consists of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
+    desc: "Adebookings is a booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel page also features a carousel that displays more pictures of the selected property/hotel. backend consists of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
     webUrl: "https://hotel-booking-web-app.onrender.com",
     gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],
@@ -100,7 +109,6 @@ export const projects = [
     gitHub: "https://github.com/Robinhood1712/",
     stacks: ["html", "css", "javascript"],
   },
-
 ];
 
 

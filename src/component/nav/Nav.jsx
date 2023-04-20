@@ -19,7 +19,6 @@ import Articles from '../articles/Articles';
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#home')
 
-
   return (
     <>
       <nav>
@@ -31,7 +30,6 @@ const Nav = () => {
         <Link to="/contact" onClick={() => setActiveNav('#contact')} className={activeNav === "#contact" ? 'active' : ''}><MdContactMail /></Link>
 
       </nav>
-
       <Routes>
         <Route path="/" element={<Header />} />
         <Route path="/about" element={<About />} />
@@ -42,7 +40,6 @@ const Nav = () => {
         <Route path="/articles" element={<Articles />} />
       </Routes>
     </>
-
   )
 }
 

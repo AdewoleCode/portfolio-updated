@@ -18,11 +18,8 @@ const Contact = () => {
       }, (error) => {
         console.log(error.text);
       });
-
-      e.target.reset();
+    e.target.reset();
   };
-
- 
 
 
   return (
@@ -51,7 +48,6 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=09024173596" target="_blank">Send a message</a>
           </article>
 
-
         </div>
 
         {/* form */}
@@ -60,8 +56,6 @@ const Contact = () => {
           <input type="email" name='email' placeholder='your Email' required />
           <textarea name="message" rows="10" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary' >Send Message</button>
-
-
         </form>
       </div>
     </section>
