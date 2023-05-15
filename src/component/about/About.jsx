@@ -19,7 +19,7 @@ const About = () => {
 
    
 
-          <p>I’m an experienced software developer with over 2 year of programming experience. </p>
+          <p>I’m an experienced software developer with over 3 year of programming experience. </p>
 
           <p>I am a passionate self-learner with a great eye for nice, modern UI designs. I enjoy building projects using various technologies that helps with scalabilty</p>
           <p>
