@@ -1,8 +1,8 @@
 // import React from 'react'
 import IMG1 from "../assets/crypyo-App.png";
 import IMG2 from "../assets/maltimart.png";
-import IMG3 from "../assets/TravelNaija.png";
-import IMGPORT from "../assets/first-port.png";
+// import IMG3 from "../assets/TravelNaija.png";
+// import IMGPORT from "../assets/first-port.png";
 import IMG4 from "../assets/travel.png"
 import IMG5 from "../assets/adebooking.png"
 import IMG6 from "../assets/fooder.png"
@@ -11,13 +11,24 @@ import ART2 from "../assets/restFul.png"
 import ART3 from "../assets/started-express.png"
 import ART4 from "../assets/started-node.png"
 import ART5 from "../assets/scope.png"
-import IMG7 from "../assets/spooky.png"
+// import IMG7 from "../assets/spooky.png"
 import IMG8 from "../assets/bas.png"
 import IMG9 from "../assets/brit.png"
+import IMG10 from "../assets/freelance-medic.png"
 
 
 
 export const projects = [
+
+  {
+    // id: "01",
+    projectName: "Freelance Medic",
+    imgUrl: IMG10,
+    desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment",
+    webUrl: "https://freelance-medic.onrender.com",
+    gitHub: "https://freelance-medic.onrender.com",
+    stacks: ["ReactJS", "Redux-Toolkit"],
+  },
   {
     // id: "01",
     projectName: "Brit Properties LTD",
@@ -47,15 +58,15 @@ export const projects = [
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
   },
 
-  {
-    // id: "01",
-    projectName: "Spooky",
-    imgUrl: IMG7,
-    desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
-    webUrl: "https://spooky-chat-app.onrender.com",
-    gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
-    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
-  },
+  // {
+  //   // id: "01",
+  //   projectName: "Spooky",
+  //   imgUrl: IMG7,
+  //   desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
+  //   webUrl: "https://spooky-chat-app.onrender.com",
+  //   gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
+  //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
+  // },
   {
     // id: "01",
     projectName: "Fooder",
@@ -92,23 +103,23 @@ export const projects = [
     gitHub: "https://github.com/AdewoleCode/Ecommerce-project",
     stacks: ["ReactJS", "Redux Toolkit", "Firebase"],
   },
-  {
-    // id: "03",
-    projectName: "Travel Naija ",
-    imgUrl: IMG3,
-    desc: "A Landing page designed for a traveling agency company, page also features light and dark mode.",
-    webUrl: "https://travelnaija.netlify.app/",
-    gitHub: "https://github.com/Robinhood1712/travelNaija",
-    stacks: ["html", "css", "javascript"],
-  },
-  {
-    projectName: "previous portfolio website",
-    imgUrl: IMGPORT,
-    desc: "previous porfolio webpage that contains some of my old projects",
-    webUrl: "https://adewole-port.netlify.app/",
-    gitHub: "https://github.com/Robinhood1712/",
-    stacks: ["html", "css", "javascript"],
-  },
+  // {
+  //   // id: "03",
+  //   projectName: "Travel Naija ",
+  //   imgUrl: IMG3,
+  //   desc: "A Landing page designed for a traveling agency company, page also features light and dark mode.",
+  //   webUrl: "https://travelnaija.netlify.app/",
+  //   gitHub: "https://github.com/Robinhood1712/travelNaija",
+  //   stacks: ["html", "css", "javascript"],
+  // },
+  // {
+  //   projectName: "previous portfolio website",
+  //   imgUrl: IMGPORT,
+  //   desc: "previous porfolio webpage that contains some of my old projects",
+  //   webUrl: "https://adewole-port.netlify.app/",
+  //   gitHub: "https://github.com/Robinhood1712/",
+  //   stacks: ["html", "css", "javascript"],
+  // },
 ];
 
 

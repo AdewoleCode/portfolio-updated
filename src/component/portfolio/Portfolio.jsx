@@ -1,8 +1,6 @@
 import React from 'react'
 import '../portfolio/Portfolio.css';
 import PortfolioCard from './PortfolioCard';
-
-
 import { projects } from '../../helper/Projects';
 
 const Portfolio = () => {
