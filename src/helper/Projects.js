@@ -15,6 +15,7 @@ import ART5 from "../assets/scope.png"
 import IMG8 from "../assets/bas.png"
 import IMG9 from "../assets/brit.png"
 import IMG10 from "../assets/freelance-medic.png"
+import IMG11 from "../assets/brit-land.png"
 
 
 
@@ -34,9 +35,18 @@ export const projects = [
     projectName: "Brit Properties LTD",
     imgUrl: IMG9,
     desc: "Official website for Brit Properties Nigeria Ltd, a real estate company primarily based in lagos.",
-    webUrl: "https://brit-react.onrender.com/",
+    webUrl: "https://britproperties.ng",
     gitHub: "https://brit-react.onrender.com/",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Django"],
+  },
+  {
+    // id: "01",
+    projectName: "Brit Land Banking",
+    imgUrl: IMG11,
+    desc: "Official website for Brit Land Banking, a subsidiary of Brit Properties Nigeria Limited.",
+    webUrl: "https://brit-land-banking.onrender.com/",
+    gitHub: "https://brit-land-banking.onrender.com/",
+    stacks: ["viteJS", "NodeJS", "EmailJS"],
   },
   {
     // id: "01",
@@ -47,16 +57,16 @@ export const projects = [
     gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],
   },
-  {
-    // id: "01",
-    projectName: "Travelify",
-    imgUrl: IMG4,
-    desc: "Travelify is a social media web application where users can share their travel stories with the world. all users can view travel diaries but only authenticated/registered users can create, edit or delete travel stories."
-    ,
-    webUrl: "https://travel-diary-app-frontendd.onrender.com",
-    gitHub: "https://github.com/AdewoleCode/mern-travel-blog",
-    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
-  },
+  // {
+  //   // id: "01",
+  //   projectName: "Travelify",
+  //   imgUrl: IMG4,
+  //   desc: "Travelify is a social media web application where users can share their travel stories with the world. all users can view travel diaries but only authenticated/registered users can create, edit or delete travel stories."
+  //   ,
+  //   webUrl: "https://travel-diary-app-frontendd.onrender.com",
+  //   gitHub: "https://github.com/AdewoleCode/mern-travel-blog",
+  //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
+  // },
 
   // {
   //   // id: "01",
@@ -67,15 +77,15 @@ export const projects = [
   //   gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
   //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
   // },
-  {
-    // id: "01",
-    projectName: "Fooder",
-    imgUrl: IMG6,
-    desc: "Fooder is food ordering web Application solution that makes ordering of food straightforward and easy, users can choose from a list of food categories, add food to cart, increase/decrease quantity of food items and checkout if they are registered/authenticated. Fooder also features an admin page to create and add a food item to the database. backend is an express API that connects to MongoDB database and it uses JsonWebToken for authentication",
-    webUrl: "https://fooderss-frontend.onrender.com",
-    gitHub: "https://github.com/AdewoleCode/fooders",
-    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "JsonWebToken"],
-  },
+  // {
+  //   // id: "01",
+  //   projectName: "Fooder",
+  //   imgUrl: IMG6,
+  //   desc: "Fooder is food ordering web Application solution that makes ordering of food straightforward and easy, users can choose from a list of food categories, add food to cart, increase/decrease quantity of food items and checkout if they are registered/authenticated. Fooder also features an admin page to create and add a food item to the database. backend is an express API that connects to MongoDB database and it uses JsonWebToken for authentication",
+  //   webUrl: "https://fooderss-frontend.onrender.com",
+  //   gitHub: "https://github.com/AdewoleCode/fooders",
+  //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "JsonWebToken"],
+  // },
   {
     // id: "01",
     projectName: "bStores",
