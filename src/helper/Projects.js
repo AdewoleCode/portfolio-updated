@@ -41,6 +41,15 @@ export const projects = [
   },
   {
     // id: "01",
+    projectName: "Freelance Medic",
+    imgUrl: IMG10,
+    desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment",
+    webUrl: "https://freelance-medic.onrender.com",
+    gitHub: "https://freelance-medic.onrender.com",
+    stacks: ["ReactJS", "Redux-Toolkit"],
+  },
+  {
+    // id: "01",
     projectName: "Brit Land Banking",
     imgUrl: IMG11,
     desc: "Official website for Brit Land Banking, a subsidiary of Brit Properties Nigeria Limited.",
@@ -144,11 +153,11 @@ export const ArticlesData = [
     img: ART5,
     Url: "https://dev.to/adewolecode/understanding-the-concept-of-scope-in-javascript-g7l"
   },
-  {
-    name: "How to build a RESTful crud API with ExpressJS and mongoDB Database for newbies ",
-    img: ART2,
-    Url: "https://dev.to/adewolecode/how-to-build-a-restful-crud-api-with-expressjs-and-mongodb-database-for-newbies-g8h"
-  },
+  // {
+  //   name: "How to build a RESTful crud API with ExpressJS and mongoDB Database for newbies ",
+  //   img: ART2,
+  //   Url: "https://dev.to/adewolecode/how-to-build-a-restful-crud-api-with-expressjs-and-mongodb-database-for-newbies-g8h"
+  // },
   {
     name: "Getting Started With ExpressJS For Backend Development",
     img: ART3,
