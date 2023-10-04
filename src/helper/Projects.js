@@ -21,15 +21,15 @@ import IMG11 from "../assets/brit-land.png"
 
 export const projects = [
 
-  {
-    // id: "01",
-    projectName: "Freelance Medic",
-    imgUrl: IMG10,
-    desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment",
-    webUrl: "https://freelance-medic.onrender.com",
-    gitHub: "https://freelance-medic.onrender.com",
-    stacks: ["ReactJS", "Redux-Toolkit"],
-  },
+  // {
+  //   // id: "01",
+  //   projectName: "Freelance Medic",
+  //   imgUrl: IMG10,
+  //   desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment",
+  //   webUrl: "https://freelance-medic.onrender.com",
+  //   gitHub: "https://freelance-medic.onrender.com",
+  //   stacks: ["ReactJS", "Redux-Toolkit"],
+  // },
   {
     // id: "01",
     projectName: "Brit Properties LTD",
