@@ -35,7 +35,7 @@ export const projects = [
     projectName: "Brit Properties LTD",
     imgUrl: IMG9,
     desc: "Official website for Brit Properties Nigeria Ltd, a real estate company primarily based in lagos.",
-    webUrl: "https://britproperties.ng",
+    webUrl: "https://brit-react.onrender.com/",
     gitHub: "https://brit-react.onrender.com/",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Django"],
   },
