@@ -39,6 +39,15 @@ export const projects = [
     gitHub: "https://brit-react.onrender.com/",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Django"],
   },
+    {
+    // id: "01",
+    projectName: "AdeBookings",
+    imgUrl: IMG5,
+    desc: "Adebookings is a booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel page also features a carousel that displays more pictures of the selected property/hotel. backend consists of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
+    webUrl: "https://hotel-booking-web-app.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],
+  },
   {
     // id: "01",
     projectName: "Freelance Medic",
@@ -49,6 +58,15 @@ export const projects = [
     stacks: ["ReactJS", "Redux-Toolkit"],
   },
   {
+    id: "01",
+    projectName: "Fooder",
+    imgUrl: IMG6,
+    desc: "Fooder is food ordering web Application solution that makes ordering of food straightforward and easy, users can choose from a list of food categories, add food to cart, increase/decrease quantity of food items and checkout if they are registered/authenticated. Fooder also features an admin page to create and add a food item to the database. backend is an express API that connects to MongoDB database and it uses JsonWebToken for authentication",
+    webUrl: "https://fooderss-frontend.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/fooders",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "JsonWebToken"],
+  },
+  {
     // id: "01",
     projectName: "Brit Land Banking",
     imgUrl: IMG11,
@@ -57,15 +75,7 @@ export const projects = [
     gitHub: "https://brit-land-banking.onrender.com/",
     stacks: ["viteJS", "NodeJS", "EmailJS"],
   },
-  {
-    // id: "01",
-    projectName: "AdeBookings",
-    imgUrl: IMG5,
-    desc: "Adebookings is a booking web application solution for hotels or rental properties in general. users can search for available properties in specified locations(abuja, lagos or bayelsa), filter based on price, input booking date, check for availablity and book the said hotel. single hotel page also features a carousel that displays more pictures of the selected property/hotel. backend consists of an application programming interface(API) that connects to a MongoDB database, it uses cookies and JsonWebToken for authentication",
-    webUrl: "https://hotel-booking-web-app.onrender.com",
-    gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
-    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],
-  },
+
   // {
   //   // id: "01",
   //   projectName: "Travelify",
@@ -77,24 +87,16 @@ export const projects = [
   //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
   // },
 
-  // {
-  //   // id: "01",
-  //   projectName: "Spooky",
-  //   imgUrl: IMG7,
-  //   desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
-  //   webUrl: "https://spooky-chat-app.onrender.com",
-  //   gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
-  //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
-  // },
-  // {
-  //   // id: "01",
-  //   projectName: "Fooder",
-  //   imgUrl: IMG6,
-  //   desc: "Fooder is food ordering web Application solution that makes ordering of food straightforward and easy, users can choose from a list of food categories, add food to cart, increase/decrease quantity of food items and checkout if they are registered/authenticated. Fooder also features an admin page to create and add a food item to the database. backend is an express API that connects to MongoDB database and it uses JsonWebToken for authentication",
-  //   webUrl: "https://fooderss-frontend.onrender.com",
-  //   gitHub: "https://github.com/AdewoleCode/fooders",
-  //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "JsonWebToken"],
-  // },
+  {
+    id: "01",
+    projectName: "Spooky",
+    imgUrl: IMG7,
+    desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
+    webUrl: "https://spooky-chat-app.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
+  },
+
   {
     // id: "01",
     projectName: "bStores",
