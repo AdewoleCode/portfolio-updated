@@ -13,7 +13,7 @@ const Header = () => {
         <header id="home">
             <div className="container header-container" id="">
                 <h1>Ademola Adewole</h1>
-                <h5>Full-stack software Developer(Frontend specialist)</h5>
+                <h5>Full-stack software Developer(Frontend Focused)</h5>
                 <div className="header-icons">
                     <a href="http://github.com/facebook/react" target='_blank'><GrReactjs /></a>
                     <a href="http://javascript.com" target='_blank'><TbBrandJavascript /></a>
