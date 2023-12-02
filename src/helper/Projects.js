@@ -39,7 +39,7 @@ export const projects = [
     gitHub: "https://brit-react.onrender.com/",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Django"],
   },
-    {
+  {
     // id: "01",
     projectName: "AdeBookings",
     imgUrl: IMG5,
@@ -47,6 +47,15 @@ export const projects = [
     webUrl: "https://hotel-booking-web-app.onrender.com",
     gitHub: "https://github.com/AdewoleCode/booking-web-app-MERN",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "React-date-range", "BcryptJS", "JsonWebToken"],
+  },
+  {
+    // id: "01",
+    projectName: "Travelify",
+    imgUrl: IMG4,
+    desc: "Travelify is a social media web application where users can share their travel stories. all users can view travel diaries but only authenticated/registered users can create a diary entry, edit diary or delete diary",
+    webUrl: "https://travel-diary-app-frontendd.onrender.com",
+    gitHub: "https://github.com/AdewoleCode/mern-travel-blog",
+    stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
   },
   {
     // id: "01",
@@ -75,17 +84,6 @@ export const projects = [
     gitHub: "https://brit-land-banking.onrender.com/",
     stacks: ["viteJS", "NodeJS", "EmailJS"],
   },
-
-  // {
-  //   // id: "01",
-  //   projectName: "Travelify",
-  //   imgUrl: IMG4,
-  //   desc: "Travelify is a social media web application where users can share their travel stories with the world. all users can view travel diaries but only authenticated/registered users can create, edit or delete travel stories."
-  //   ,
-  //   webUrl: "https://travel-diary-app-frontendd.onrender.com",
-  //   gitHub: "https://github.com/AdewoleCode/mern-travel-blog",
-  //   stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Material UI/Material UI Icons"],
-  // },
 
   {
     id: "01",
