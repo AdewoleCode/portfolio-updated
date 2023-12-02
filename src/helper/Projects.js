@@ -84,7 +84,6 @@ export const projects = [
     gitHub: "https://brit-land-banking.onrender.com/",
     stacks: ["viteJS", "NodeJS", "EmailJS"],
   },
-
   {
     id: "01",
     projectName: "Spooky",
@@ -94,7 +93,6 @@ export const projects = [
     gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
   },
-
   {
     // id: "01",
     projectName: "bStores",
