@@ -18,6 +18,7 @@ import IMG10 from "../assets/freelance-medic.png"
 import IMG11 from "../assets/brit-land.png"
 import codesnippet from "../assets/code (5).png"
 import simpleshare from "../assets/simpleshare.png"
+import dport from "../assets/3dport.png"
 
 
 
@@ -41,15 +42,15 @@ export const projects = [
     gitHub: "https://simpleshare-server.onrender.com/",
     stacks: ["NextJs", "clerkJS", "Firebase", "React-Email"],
   },
-  // {
-  //   // id: "01",
-  //   projectName: "3d-portfolio",
-  //   imgUrl: codesnippet,
-  //   desc: "As a threeJs enthusiast, a 3d model portfolio website to get familiar with the world of threeJS. Enjoy exploring island",
-  //   webUrl: "https://adewole-3d-portfolio.onrender.com/",
-  //   gitHub: "https://github.com/AdewoleCode/3d-portolio",
-  //   stacks: ["ReactJS", "threeJS",],
-  // },
+  {
+    // id: "01",
+    projectName: "3d-portfolio",
+    imgUrl: dport,
+    desc: "As a threeJs enthusiast, a 3d model portfolio website to get familiar with the world of threeJS. Enjoy exploring island!",
+    webUrl: "https://adewole-3d-portfolio.onrender.com/",
+    gitHub: "https://github.com/AdewoleCode/3d-portolio",
+    stacks: ["ReactJS", "threeJS", "EmailJs"],
+  },
   {
     // id: "01",
     projectName: "Brit Properties LTD",
