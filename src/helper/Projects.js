@@ -16,19 +16,39 @@ import IMG8 from "../assets/bas.png"
 import IMG9 from "../assets/brit.png"
 import IMG10 from "../assets/freelance-medic.png"
 import IMG11 from "../assets/brit-land.png"
+import codesnippet from "../assets/code (5).png"
+import simpleshare from "../assets/simpleshare.png"
 
 
 
 export const projects = [
 
+  {
+    // id: "01",
+    projectName: "Code-Snippet-Sharer",
+    imgUrl: codesnippet,
+    desc: "You get a nice, cool-looking, customizable, resizable canvas to write code-snippets and download to your gallery as an image in png format. You can also change background color, theme color, extensions, font size and also adjust paddings as an extra.",
+    webUrl: "https://code-snippet-sharer.onrender.com",
+    gitHub: "https://code-snippet-sharer.onrender.com",
+    stacks: ["NextJs", "Typescript", "React-ace", "Re-sizable"],
+  },
+  {
+    // id: "01",
+    projectName: "SimpleShare",
+    imgUrl: simpleshare,
+    desc: "A file sharing platform that lets you upload, organize and share files with friends. features includes password protection, share url, send file to email...(IN PROGRESS)",
+    webUrl: "https://simpleshare-server.onrender.com/",
+    gitHub: "https://simpleshare-server.onrender.com/",
+    stacks: ["NextJs", "clerkJS", "Firebase", "React-Email"],
+  },
   // {
   //   // id: "01",
-  //   projectName: "Freelance Medic",
-  //   imgUrl: IMG10,
-  //   desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment",
-  //   webUrl: "https://freelance-medic.onrender.com",
-  //   gitHub: "https://freelance-medic.onrender.com",
-  //   stacks: ["ReactJS", "Redux-Toolkit"],
+  //   projectName: "3d-portfolio",
+  //   imgUrl: codesnippet,
+  //   desc: "As a threeJs enthusiast, a 3d model portfolio website to get familiar with the world of threeJS. Enjoy exploring island",
+  //   webUrl: "https://adewole-3d-portfolio.onrender.com/",
+  //   gitHub: "https://github.com/AdewoleCode/3d-portolio",
+  //   stacks: ["ReactJS", "threeJS",],
   // },
   {
     // id: "01",
@@ -61,13 +81,13 @@ export const projects = [
     // id: "01",
     projectName: "Freelance Medic",
     imgUrl: IMG10,
-    desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment",
+    desc: "Get connected with top-rated medical facilities across the country, with a regularly updated database, so you can find he right asignment  (IN PROGRESS...)",
     webUrl: "https://freelance-medic.onrender.com",
     gitHub: "https://freelance-medic.onrender.com",
     stacks: ["ReactJS", "Redux-Toolkit"],
   },
   {
-    id: "01",
+    // id: "01",
     projectName: "Fooder",
     imgUrl: IMG6,
     desc: "Fooder is food ordering web Application solution that makes ordering of food straightforward and easy, users can choose from a list of food categories, add food to cart, increase/decrease quantity of food items and checkout if they are registered/authenticated. Fooder also features an admin page to create and add a food item to the database. backend is an express API that connects to MongoDB database and it uses JsonWebToken for authentication",
@@ -85,7 +105,7 @@ export const projects = [
     stacks: ["viteJS", "NodeJS", "EmailJS"],
   },
   {
-    id: "01",
+    // id: "01",
     projectName: "Spooky",
     imgUrl: IMG7,
     desc: "Spooky is a real time chat app with a stylish, modern design that uses socket.io for message exchanges. users can also select from a list of dynamically generated avatars from api.multiavatar.com as avatar.",
@@ -93,15 +113,15 @@ export const projects = [
     gitHub: "https://github.com/AdewoleCode/sp00kky-chat-fullstack-node-and-react",
     stacks: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux-Toolkit", "BcryptJS", "Socket.io"],
   },
-  {
-    // id: "01",
-    projectName: "bStores",
-    imgUrl: IMG8,
-    desc: "an ecommerce store for children wears. users can add items to cart, increase quantity of items, visit a single item page, checkout. app also features stripe payment solution. backend is an headless cms that helps make ecomerce content much easier to manage",
-    webUrl: "https://iyaibro.onrender.com",
-    gitHub: "https://github.com/AdewoleCode/basirat-children-stores",
-    stacks: ["ReactJS", "strapi", "React-Carousel", "sql-Lite", "Redux-Toolkit", "Material UI"],
-  },
+  // {
+  //   // id: "01",
+  //   projectName: "bStores",
+  //   imgUrl: IMG8,
+  //   desc: "an ecommerce store for children wears. users can add items to cart, increase quantity of items, visit a single item page, checkout. app also features stripe payment solution. backend is an headless cms that helps make ecomerce content much easier to manage",
+  //   webUrl: "https://iyaibro.onrender.com",
+  //   gitHub: "https://github.com/AdewoleCode/basirat-children-stores",
+  //   stacks: ["ReactJS", "strapi", "React-Carousel", "sql-Lite", "Redux-Toolkit", "Material UI"],
+  // },
   {
     // id: "01",
     projectName: "Coin Search",
@@ -156,15 +176,15 @@ export const ArticlesData = [
   //   img: ART2,
   //   Url: "https://dev.to/adewolecode/how-to-build-a-restful-crud-api-with-expressjs-and-mongodb-database-for-newbies-g8h"
   // },
-  {
-    name: "Getting Started With ExpressJS For Backend Development",
-    img: ART3,
-    Url: "https://adewolecode.hashnode.dev/getting-started-with-expressjs-for-backend-development"
-  },
-  {
-    name: "Getting Started With NodeJS as an Absolute Backend Newbie",
-    img: ART4,
-    Url: "https://adewolecode.hashnode.dev/getting-started-with-nodejs-as-an-absolute-backend-newbiehttpshashnodecom"
-  }
+  // {
+  //   name: "Getting Started With ExpressJS For Backend Development",
+  //   img: ART3,
+  //   Url: "https://adewolecode.hashnode.dev/getting-started-with-expressjs-for-backend-development"
+  // },
+  // {
+  //   name: "Getting Started With NodeJS as an Absolute Backend Newbie",
+  //   img: ART4,
+  //   Url: "https://adewolecode.hashnode.dev/getting-started-with-nodejs-as-an-absolute-backend-newbiehttpshashnodecom"
+  // }
 ]
 

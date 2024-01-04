@@ -26,6 +26,10 @@ const Experience = () => {
                         </article>
                         <article>
                             <BsPatchCheckFill className='exp-icon' />
+                            <h4>NEXTJS</h4>
+                        </article>
+                        <article>
+                            <BsPatchCheckFill className='exp-icon' />
                             <h4>REDUXJS/REDUX-TOOLKIT</h4>
                         </article>
                         <article>
